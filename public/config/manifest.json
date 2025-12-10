@@ -1,6 +1,6 @@
 {
-"name": "MSTREAM",
-"short_name": "mstream",
+"name": "STREAMLAB",
+"short_name": "streamlab",
 "start_url": "/",
 "display": "standalone",
 "description": "Web application for Movie and TV Shows streaming.",
@@ -11,7 +11,7 @@
 "orientation": "any",
 "icons": [
     {
-        "src": "/logo/mstream_(512x512).png",
+        "src": "/logo/streamlab_(512x512).png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "any"
@@ -69,7 +69,7 @@
     {
       "name": "Home Page",
       "url": "/home",
-      "description": "Home page for MSTREAM",
+      "description": "Home page for STREAMLAB",
       "icons": [{
         "src": "/icons/favicon-96x96.png",
         "sizes": "96x96"
@@ -78,7 +78,7 @@
     {
       "name": "Movie Page",
       "url": "/movies",
-      "description": "Movie page for MSTREAM",
+      "description": "Movie page for STREAMLAB",
       "icons": [{
         "src": "/icons/favicon-96x96.png",
         "sizes": "96x96"
@@ -87,7 +87,7 @@
     {
       "name": "TV Shows Page",
       "url": "/tv-shows",
-      "description": "TV Shows page for MSTREAM",
+      "description": "TV Shows page for STREAMLAB",
       "icons": [{
         "src": "/icons/favicon-96x96.png",
         "sizes": "96x96"
@@ -96,7 +96,7 @@
     {
       "name": "Popular Page",
       "url": "/popular",
-      "description": "Popular page for MSTREAM",
+      "description": "Popular page for STREAMLAB",
       "icons": [{
         "src": "/icons/favicon-96x96.png",
         "sizes": "96x96"
