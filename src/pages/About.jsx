@@ -5,13 +5,13 @@ const About = () => {
   return (
     <div className="static-page">
       <div className="static-container">
-        <h1>About MStream</h1>
+        <h1>About StreamLab</h1>
         
         <div className="about-content">
           <section className="about-section">
-            <h2>Welcome to MStream</h2>
+            <h2>Welcome to StreamLab</h2>
             <p>
-              Welcome to MStream, your favorite destination for exploring the vast world of Movies and TV shows. 
+              Welcome to StreamLab, your favorite destination for exploring the vast world of Movies and TV shows. 
               Our mission is to provide an elegant and user-friendly interface for discovering new content, 
               tracking trending titles, and enjoying a seamless viewing experience.
             </p>
@@ -63,7 +63,7 @@ const About = () => {
               official platforms and services.
             </p>
             <p>
-              MStream is developed as a demonstration of modern web development practices and is intended 
+              StreamLab is developed as a demonstration of modern web development practices and is intended 
               for educational and entertainment purposes.
             </p>
           </section>
@@ -74,7 +74,7 @@ const About = () => {
               Have questions, suggestions, or feedback? We'd love to hear from you!
             </p>
             <div className="contact-info">
-              <p>🐙 GitHub: <a href="https://github.com/cd-Crypton/mstream" target="_blank" rel="noopener noreferrer">github.com/cd-Crypton/mstream</a></p>
+              <p>🐙 GitHub: <a href="https://github.com/ram122985/streamlab" target="_blank" rel="noopener noreferrer">github.com/ram122985/streamlab</a></p>
             </div>
           </section>
         </div>
