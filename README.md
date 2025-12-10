@@ -1,15 +1,15 @@
 <p align="center">
   <div align="center">
-    <a href="https://mstream.pages.dev/">
-      <img alt="MSTREAM" src="https://raw.githubusercontent.com/cd-Crypton/mstream/refs/heads/main/public/logo/mstream-new.png" width="220"/>
+    <a href="https://streamlab.pages.dev/">
+      <img alt="STREAMLAB" src="https://raw.githubusercontent.com/cd-Crypton/mstream/refs/heads/main/public/logo/streamlab-new.png" width="220"/>
     </a>
   </div>
-    <h3 align="center">MSTREAM - Stream Movies & TV Shows</h3>
+    <h3 align="center">StreamLab - Stream Movies & TV Shows</h3>
     <p align="center">
 </p>
 </p>
 <p align="center">
-    <a href="https://mstream.pages.dev/">MSTREAM</a> is an open-source movies and tv shows streaming service that uses <a href="https://www.themoviedb.org/">TheMovieDatabase</a> API, built using ReactJS and CSS, and can be deployed in Cloudflare (as Pages). It lets you easily find any movie with intuitive search, and suggestion feature. Note that the website itself does not have ads anymore, but video source (iframe-based) has embeded ads---please use ad-blocking extension or use Brave browsers.
+    <a href="https://mstream.pages.dev/">STREAM LAB</a> is an open-source movies and tv shows streaming service that uses <a href="https://www.themoviedb.org/">TheMovieDatabase</a> API, built using ReactJS and CSS, and can be deployed in Cloudflare (as Pages). It lets you easily find any movie with intuitive search, and suggestion feature. Note that the website itself does not have ads anymore, but video source (iframe-based) has embeded ads---please use ad-blocking extension or use Brave browsers.
     <img alt="MSTREAM" src="https://raw.githubusercontent.com/cd-Crypton/mstream/refs/heads/main/public/img/landingpage.webp"/>
  </p>
 
@@ -38,7 +38,7 @@
 <img alt="Popular" src="https://raw.githubusercontent.com/cd-Crypton/mstream/refs/heads/main/public/img/popularwithFilter.webp"/>
 
 ### Scripts
-If you want to convert your images into WebP format, read [scripts/README.md](https://github.com/cd-Crypton/mstream/tree/main/scripts/README.md) and use [webp_converter.py](https://github.com/cd-Crypton/mstream/tree/main/scripts/webp_converter.py). Only if you don't want to open new tab in a browser, convert online.
+If you want to convert your images into WebP format, read [scripts/README.md](https://github.com/ram122985/streamlab/tree/main/scripts/README.md) and use [webp_converter.py](https://github.com/ram122985/streamlab/tree/main/scripts/webp_converter.py). Only if you don't want to open new tab in a browser, convert online.
 </details>
 
 ## Local Development
@@ -53,7 +53,7 @@ cd mstream/mstream
 npm install
 ```
 
-### 3. Refer the <a href="https://github.com/cd-Crypton/mstream/blob/main/.env.example">.env.example</a> to set your own .env file.
+### 3. Refer the <a href="https://github.com/ram122985/streamlab/blob/main/.env.example">.env.example</a> to set your own .env file.
 
 ## Start the server
 
@@ -65,7 +65,7 @@ npm run dev
 
 ### Cloudflare (Pages)
 
-Host your own instance of <a href="https://mstream.pages.dev/">MSTREAM</a> on Cloudflare.
+Host your own instance of <a href="https://streamlab.pages.dev/">STREAMLAB</a> on Cloudflare.
 - Fork this repository.
 - Go to Cloudflare >> Workers and Pages >> Create application >> Pages >> Import an Existing Git Repository
 - Project Name: `mstream or whatever name you want - just make sure to edit wrangler.jsonc`
@@ -73,8 +73,8 @@ Host your own instance of <a href="https://mstream.pages.dev/">MSTREAM</a> on Cl
 - Framework Preset: `None`
 - Build Command: `npm run build`
 - Build Output Directory: `dist`
-- Root Directory: `mstream`
-- After successful deployment, go to Settings >> Variables and Secrets >> Then the following details in <a href="https://github.com/cd-Crypton/mstream/blob/main/.env.example">.env.example</a>
+- Root Directory: `streamlab`
+- After successful deployment, go to Settings >> Variables and Secrets >> Then the following details in <a href="https://github.com/ram122985/streamlab/blob/main/.env.example">.env.example</a>
 
 ### Pull Requests
 
