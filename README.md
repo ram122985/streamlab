@@ -10,7 +10,7 @@
 </p>
 <p align="center">
     <a href="https://streamlab-6ey.pages.dev/">STREAM LAB</a> is an open-source movies and tv shows streaming service that uses <a href="https://www.themoviedb.org/">TheMovieDatabase</a> API, built using ReactJS and CSS, and can be deployed in Cloudflare (as Pages). It lets you easily find any movie with intuitive search, and suggestion feature. Note that the website itself does not have ads anymore, but video source (iframe-based) has embeded ads---please use ad-blocking extension or use Brave browsers.
-    <img alt="MSTREAM" src="https://raw.githubusercontent.com/ram122985/streamlab/refs/heads/main/public/img/landingpage.webp"/>
+    <img alt="STREAMLAB" src="https://raw.githubusercontent.com/ram122985/streamlab/refs/heads/main/public/img/landingpage.webp"/>
  </p>
 
 <details>
@@ -49,7 +49,7 @@ If you want to convert your images into WebP format, read [scripts/README.md](ht
 
 ```bash
 git clone https://github.com/ram122985/streamlab.git
-cd mstream/mstream
+cd streamlab
 npm install
 ```
 
